@@ -9,7 +9,7 @@ function Navbar() {
       <WrapContent>
         <HStack justifyContent={'space-between'}>
           <HStack>
-            <Image w='30px' src='/images/logo-ball.png' alt='logo' />
+            <Image w='30px' src='/images/logo-c.png' alt='logo' />
             <Image w='70px' src='/images/logo.png' alt='logo' />
           </HStack>
 

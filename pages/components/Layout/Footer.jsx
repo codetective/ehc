@@ -45,7 +45,7 @@ function Footer() {
             </Text>
             <HStack py='2'>
               <HStack>
-                <Image w='50px' src='/images/logo-ball.png' alt='logo' />
+                <Image w='50px' src='/images/logo-c.png' alt='logo' />
                 <Image w='90px' src='/images/logo.png' alt='logo' />
               </HStack>
               <Link href='#header'>

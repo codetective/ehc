@@ -31,7 +31,7 @@ export default function FooterInfoBar() {
           </Text>
         </Text>
       </Stack>
-      <Box display={['none', 'block']} />
+      <Box display={['none', 'block', 'none']} />
       <Stack spacing='3'>
         <Text pl='4' as='h4' borderLeft='1px solid #2493a2'>
           SIGN UP FOR EMAIL UPDATES
