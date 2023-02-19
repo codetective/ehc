@@ -17,6 +17,7 @@ export default function Header() {
       bgBlendMode='overlay'
       bgColor={'rgba(0,0,0,0.5)'}
       bgRepeat='no-repeat'
+      bgSize='cover'
       bgPos={'center'}
     >
       <Navbar />
