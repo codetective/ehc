@@ -17,14 +17,14 @@ function MeetOurTeam() {
       role: 'FOUNDER & CEO (MEXICO)',
       desc: 'medical doctor, masters H.A',
       bio: 'With over 30 years of experience in the art world, Aaron spent 15 years immersed in a career of strategic planning and helping to build a multi-million dollar...',
-      image: '/images/team/jorge.png',
+      image: '/images/team/jorge1.png',
     },
     {
       name: 'AARON K. METZ',
       role: 'FOUNDER & CCO (CANADA)',
       desc: 'holistic healer, nft artists & graphic designer',
       bio: 'With over 30 years of experience in the art world, Aaron spent 15 years immersed in a career of strategic planning and helping to build a multi-million dollar...',
-      image: '/images/team/aaron.png',
+      image: '/images/team/aaron1.png',
     },
     {
       name: 'EDIDIONG UMANA',
@@ -38,14 +38,14 @@ function MeetOurTeam() {
       role: 'FOUNDER & CBTO (LITHUANIA)',
       desc: 'ama host & senior blockchain advisor',
       bio: 'With over 30 years of experience in the art world, Aaron spent 15 years immersed in a career of strategic planning and helping to build a multi-million dollar...',
-      image: '/images/team/salinus.png',
+      image: '/images/team/salinus1.png',
     },
     {
       name: 'DIEGO OROZCO',
       role: 'FOUNDER & CMO (USA/Mexico)',
       desc: 'senior blockchain project manager',
       bio: 'With over 30 years of experience in the art world, Aaron spent 15 years immersed in a career of strategic planning and helping to build a multi-million dollar...',
-      image: '/images/team/diego.png',
+      image: '/images/team/diego1.png',
     },
   ];
   return (

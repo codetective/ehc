@@ -100,7 +100,7 @@ export default function FooterInfoBar() {
           >
             <Image
               rounded='full'
-              w='50px'
+              w='40px'
               src='/images/linktree.png'
               alt='linktree'
             />
