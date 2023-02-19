@@ -1,4 +1,4 @@
-import seo from '@/seo';
+import seo from '../seo';
 import { ChakraProvider } from '@chakra-ui/react';
 import { DefaultSeo } from 'next-seo';
 import '../styles/globals.css';

@@ -1,4 +1,4 @@
-import seo from '@/seo';
+import seo from '../../../../seo';
 import {
   Button,
   FormControl,

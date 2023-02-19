@@ -1,4 +1,4 @@
-import seo from '@/seo';
+import seo from '../../../../seo';
 import { Box, Button, Heading, HStack, Link, Text } from '@chakra-ui/react';
 import React from 'react';
 
