@@ -9,11 +9,16 @@ import {
   DrawerHeader,
   Link,
   Stack,
+  Button,
+  Input,
+  DrawerFooter,
 } from '@chakra-ui/react';
 import { BiMenu } from 'react-icons/bi';
+import React from 'react';
 
-export default function MobileMenu() {
+function MobileMenu() {
   const { isOpen, onOpen, onClose } = useDisclosure();
+  const btnRef = React.useRef();
   const links = [
     {
       name: 'Home',
@@ -36,25 +41,37 @@ export default function MobileMenu() {
       path: '#footer',
     },
   ];
+
   return (
     <>
       <IconButton
+        ref={btnRef}
         variant={'flushed'}
         onClick={onOpen}
         color='white'
         icon={<BiMenu />}
         fontSize='30px'
       />
-      <Drawer isOpen={isOpen} placement='right' size={'xs'} onClose={onClose}>
+      <Drawer
+        isOpen={isOpen}
+        placement='right'
+        onClose={onClose}
+        finalFocusRef={btnRef}
+      >
         <DrawerOverlay />
         <DrawerContent>
-          <DrawerCloseButton zIndex='10' />
+          <DrawerCloseButton />
           <DrawerHeader>Menu</DrawerHeader>
 
-          <DrawerBody px='0'>
+          <DrawerBody>
             <Stack gap='2'>
               {links.map((link) => (
                 <Link
+                  onClick={() =>
+                    setTimeout(() => {
+                      onClose();
+                    }, 600)
+                  }
                   _hover={{ bg: 'gray.100' }}
                   py='2'
                   px='6'
@@ -71,3 +88,5 @@ export default function MobileMenu() {
     </>
   );
 }
+
+export default MobileMenu;

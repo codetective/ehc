@@ -4,7 +4,6 @@ import {
   IconButton,
   Image,
   Link,
-  SimpleGrid,
   Stack,
   Text,
 } from '@chakra-ui/react';

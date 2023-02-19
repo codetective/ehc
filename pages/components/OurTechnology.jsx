@@ -9,12 +9,6 @@ function OurTechnology() {
       </Text>
       <Stack gap='5'>
         <Text>
-          Evolved Human Care (EHC) is a web-based virtual care platform that
-          uses blockchain technology to create a user-focused electronic
-          healthcare system with enhanced security and accessibility for service
-          providers and end-users.
-          <br />
-          <br />
           EHC is built on a more efficient architecture (blockchain and web 3,0)
           allowing varying access levels, where users and providers control who
           can access their data and information. Offering accessible healthcare,

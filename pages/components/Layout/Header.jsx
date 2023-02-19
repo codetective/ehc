@@ -24,7 +24,7 @@ export default function Header() {
       <Box id='hcb'>
         <Container maxW={'3xl'} id='hc'>
           <Stack
-            minH='80vh'
+            minH='50vh'
             justify={'center'}
             as={Box}
             textAlign={'center'}
@@ -47,10 +47,10 @@ export default function Header() {
                 textAlign='center'
                 m='auto'
               >
-                Evolved Human Care (EHC) is a web-based virtual platform that
-                uses blockchain technology to create a user-focused electronic
-                health record with enhanced security and accessibility for
-                service providers and end-users.
+                Evolved Human Care (EHC) is a web-based virtual care platform
+                that uses blockchain technology to create a user-focused
+                electronic healthcare system with enhanced security and
+                accessibility for service providers and end-users.
               </Text>
             </Center>
             <Stack
